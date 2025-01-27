@@ -1,0 +1,118 @@
+nav {
+  background-color: black;
+  display: flex;
+  padding: 8px 150px;
+}
+
+#navLeft {
+  width: 50%;
+}
+
+#navLeft > img {
+  width: 180px;
+}
+
+#navRight {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 30px;
+}
+
+#link {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+#link > li > a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#navBtn {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+
+.bttn1 {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 22px;
+  border: 1px white solid;
+}
+
+.bttn2 {
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+  padding: 12px 22px;
+}
+
+/* HERO SECTION */
+
+.carousel-item > img {
+  width: fit-content;
+}
+
+.carousel-item > .img1 {
+  width: fit-content;
+}
+
+/* MIDD */
+
+#midd {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 40px 0px 110px 0px;
+}
+
+#salt {
+  font-size: larger;
+}
+
+#middHead {
+  margin: 50px 0px;
+}
+
+#middHead > p {
+  color: gray;
+}
+
+#midd2 {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: center;
+}
+
+.box {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.box > img {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+
+.middbttn {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 22px;
+  margin: 0px 50px;
+  border: 1px white solid;
+}
